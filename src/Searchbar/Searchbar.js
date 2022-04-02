@@ -72,7 +72,7 @@ const Searchbar = (props) => {
                 </form>
             </div>
             <div className={showContent ? 'searchbar-content' : 'searchbar-content hidden'}>
-                <h1> Found {searchResults.length} results for '{searchTag}'</h1>
+                <h1 aria-live='polite'> Found {searchResults.length} results for '{searchTag}'</h1>
                 <ul>
                 {searchResults.map((item, index) =>{
                         return(
