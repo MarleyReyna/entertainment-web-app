@@ -1,11 +1,11 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header/Header";
-import Home from "./Home/Home";
-import Movies from "./Movies/Movies";
-import TV from "./TV/TV";
-import Bookmarks from "./Bookmarks/Bookmarks";
+import Header from "./Components/Header/Header";
+import Home from "./Pages/Home/Home";
+import Movies from "./Pages/Movies/Movies";
+import TV from "./Pages/TV/TV";
+import Bookmarks from "./Pages/Bookmarks/Bookmarks";
 import movieInfo from "./MovieInfo";
 import bookmarkEmpty from "./assets/icon-bookmark-empty.svg";
 import bookmark from "./assets/icon-bookmark-full.svg";

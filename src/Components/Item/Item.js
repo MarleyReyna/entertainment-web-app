@@ -1,6 +1,6 @@
-import movieicon from "../assets/icon-category-movie.svg";
-import tvicon from "../assets/icon-category-tv.svg";
-import play from "../assets/icon-play.svg";
+import movieicon from "../../assets/icon-category-movie.svg";
+import tvicon from "../../assets/icon-category-tv.svg";
+import play from "../../assets/icon-play.svg";
 
 export const Item = ({ item, changeBookmark, changeEmpty }) => {
   return (

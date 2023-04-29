@@ -2,8 +2,8 @@ import "./Header.scss";
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import sideButtons from "./buttons";
-import logo from "../assets//logo.svg";
-import pfp from "../assets//image-avatar.png";
+import logo from "../../assets/logo.svg";
+import pfp from "../../assets/image-avatar.png";
 
 const Header = () => {
   let location = useLocation();

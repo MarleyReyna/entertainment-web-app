@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Home.scss";
-import Searchbar from "../Searchbar/Searchbar";
-import movieInfo from "../MovieInfo";
-import { Item, TrendingItem } from "../Item/Item";
+import movieInfo from "../../MovieInfo";
+import Searchbar from "../../Components/Searchbar/Searchbar";
+import { Item, TrendingItem } from "../../Components/Item/Item";
 
 const Home = ({ changeBookmark, changeEmpty }) => {
   const [showContent, setShowContent] = useState(false);
