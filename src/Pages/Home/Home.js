@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Home.scss";
 import movieInfo from "../../MovieInfo";
 import Searchbar from "../../Components/Searchbar/Searchbar";
 import { Item, TrendingItem } from "../../Components/Item/Item";

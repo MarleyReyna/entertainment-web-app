@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Bookmarks.scss";
 import Searchbar from "../../Components/Searchbar/Searchbar";
 import { Item } from "../../Components/Item/Item";
 

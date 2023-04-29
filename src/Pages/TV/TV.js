@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./TV.scss";
 import Searchbar from "../../Components/Searchbar/Searchbar";
 import { Item } from "../../Components/Item/Item";
 

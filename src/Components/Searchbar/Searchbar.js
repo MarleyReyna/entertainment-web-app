@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./Searchbar.scss";
 import MovieInfo from "../../MovieInfo";
 import search from "../../assets/icon-search.svg";
 import { Item } from "../Item/Item";
