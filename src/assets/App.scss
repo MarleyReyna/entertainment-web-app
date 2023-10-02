@@ -1,16 +1,6 @@
 $back-color: #161d2f;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-::-webkit-scrollbar {
-  display: none;
-}
-
-// Global Styling
 .App {
   display: flex;
   background: hsl(223, 30%, 9%);
@@ -813,46 +803,5 @@ $back-color: #161d2f;
         }
       }
     }
-  }
-}
-
-// Animations
-@keyframes loadRight {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-40%);
-  }
-  60% {
-    transform: translateY(0);
-  }
-  75% {
-    transform: translateY(-20%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes loadIn {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
   }
 }

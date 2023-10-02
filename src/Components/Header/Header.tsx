@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import sideButtons from "./buttons";
+import sideButtons from "../../data/buttons";
 import logo from "../../assets/logo.svg";
 import pfp from "../../assets/image-avatar.png";
 
@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header>
-      <img src={logo} alt="" className="logo" />
+      <img src={logo} alt="Entertainment Hub" className="logo" />
       <ul>
         {sideButtons.map((item, index) => {
           return (
@@ -29,13 +29,13 @@ const Header = () => {
                 className={display === item.name ? "button active" : "button"}
                 onClick={() => setDisplay(item.name)}
               >
-                <img src={item.img} alt=""></img>
+                <img src={item.img} alt={item.name}></img>
               </Link>
             </li>
           );
         })}
       </ul>
-      <img src={pfp} alt="" className="profile-img" />
+      <img src={pfp} alt="Profile Picture" className="profile-img" />
     </header>
   );
 };
